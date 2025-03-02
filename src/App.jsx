@@ -13,11 +13,11 @@ const router = createBrowserRouter([
     element: <Body />,
     children: [
       {
-        path: "/inbox",
+        path: "inbox",
         element: <Inbox />,
       },
       {
-        path: "/mail/:id",
+        path: "mail/:id",
         element: <Mail />,
       },
     ],

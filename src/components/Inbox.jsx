@@ -44,7 +44,7 @@ const Inbox = () => {
           </div>
         </div>
         <div className="flex items-center gap-2">
-          {/* <p className="text-sm text-gray-500">1-50 of {emails?.length}</p> */}
+          <p className="text-sm text-gray-500">1-50 of</p>
           <button
             disabled={false}
             className="hover:rounded-full hover:bg-gray-100"
