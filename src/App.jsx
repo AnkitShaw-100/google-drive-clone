@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     element: <Body />,
     children: [
       {
-        path: "/inbox",
+        path: "/",
         element: <Inbox />,
       },
       {
